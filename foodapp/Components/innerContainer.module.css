@@ -1,0 +1,13 @@
+.innerContainer {
+  /* background-color: aqua; */
+  flex: 1px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.foodListContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
